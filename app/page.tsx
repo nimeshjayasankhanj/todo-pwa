@@ -58,7 +58,7 @@ export default function Home() {
     <main className="min-h-screen bg-[#f6f7fb] text-gray-900">
       <div className="mx-auto min-h-screen max-w-md bg-white shadow-xl">
         <div className="relative min-h-screen pb-24">
-          <MobileHeader pendingCount={0} />
+          <MobileHeader />
 
           <section className="px-5 pt-6">
             <Suspense fallback={<TodoListSkeleton />}>
